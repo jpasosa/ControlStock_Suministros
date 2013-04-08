@@ -1,0 +1,4 @@
+cstock_main:
+    resource: "@CstockMainBundle/Resources/config/routing.yml"
+    prefix:   /
+

@@ -1,3 +1,7 @@
+# cstock_main_homepage:
+#     pattern:  /hello/{name}
+#     defaults: { _controller: CstockMainBundle:Default:index }
+
 cstock_main_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: CstockMainBundle:Default:index }
+    pattern:  /
+    defaults: { _controller: CstockMainBundle:MainMenu:index }

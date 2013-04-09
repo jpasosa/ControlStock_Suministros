@@ -1,6 +1,10 @@
-_welcome:
+# _welcome:
+#     pattern:  /
+#     defaults: { _controller: AcmeDemoBundle:Welcome:index }
+
+_homepage:
     pattern:  /
-    defaults: { _controller: AcmeDemoBundle:Welcome:index }
+    defaults: { _controller: CstockMainBundle:MainMenu:index }
 
 _demo_secured:
     resource: "@AcmeDemoBundle/Controller/SecuredController.php"

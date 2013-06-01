@@ -1,0 +1,16 @@
+{% extends '::layout.html.twig' %}
+
+{% block content %}
+    <div class="left"></div>
+
+    <form action="{{ path('cstock_articles_test_new_article') }}" method="post" {{ form_enctype(form) }}>
+        {{ form_widget(form) }}
+        <input type="submit" />
+    </form>
+
+{% endblock %}
+
+
+
+
+

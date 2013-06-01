@@ -1,0 +1,19 @@
+cstock_articles_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CstockArticlesBundle:Default:index }
+
+cstock_articles_test_create:
+    pattern:  /test/create_article
+    defaults: { _controller: CstockArticlesBundle:Default:create }
+
+cstock_articles_test_new_article:
+    pattern:  /test/new_article
+    defaults: { _controller: CstockArticlesBundle:Default:newArticle }
+
+
+# http://cs_suministros/app_dev.php/articles/new
+article_new:
+    pattern:  /new
+    defaults: { _controller: CstockArticlesBundle:Article:new }
+
+

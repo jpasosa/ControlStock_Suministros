@@ -25,13 +25,13 @@
                         </ul>
                         <div class="bottom_menu">
                             <div class="logo">
-                                <a href="">
+                                <a href="{{ path('_homepage') }}">
                                     <img class="logo_image" src="{{ asset('bundles/cstockmain/images/main/icono-stock.png' ) }}" alt="stock" title="Stock" width="72" height="50" />
                                 </a>
                                 SUMINISTROS
                             </div>
                             <ul class="menu_principal">
-                                <li> <a href="#">Alta de Productos </a></li>
+                                <li> <a href="{{ path('article_new') }}">Alta de Productos </a></li>
                                 <li> <a href="#">Stock Actual </a></li>
                                 <li> <a href="#">Entrada de Stock </a></li>
                                 <li> <a href="#">Salida de Stock </a></li>

@@ -1,3 +1,7 @@
+cstock_articles:
+    resource: "@CstockArticlesBundle/Resources/config/routing.yml"
+    prefix:   /articles
+
 cstock_main:
     resource: "@CstockMainBundle/Resources/config/routing.yml"
     prefix:   /
